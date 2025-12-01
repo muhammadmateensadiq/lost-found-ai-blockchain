@@ -24,20 +24,19 @@ The notebook demonstrates:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/muhammadmateensadiq/lost-found-ai-blockchain.git
-cd lost-found-ai-blockchain```
+cd lost-found-ai-blockchain
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt```
+2. Install Dependencies
+pip install -r requirements.txt
 
-### 3. Prepare Dataset
+3. Prepare Dataset
 Download Caltech-256 and place it in your environment (Kaggle, local machine, etc.).
 
 Update the dataset path in the notebook:
-```bash
-dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'```
 
-### 4. Run the Notebook
+dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'
+
+4. Run the Notebook
 Open:
 lost-found-ai-blockchain.ipynb
 Run all cells to reproduce experiments.
