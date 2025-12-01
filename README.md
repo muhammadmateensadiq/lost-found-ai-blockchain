@@ -39,3 +39,5 @@ The notebook demonstrates:
 ### 4. Run the Notebook
    - Open lost-found-ai-blockchain.ipynb
    - Run all cells to reproduce experiments.
+
+Author: Muhammad Mateen Sadiq
