@@ -29,8 +29,8 @@ The notebook demonstrates:
         pip install -r requirements.txt
 
 ### 3. Prepare Dataset
-        Download Caltech-256 and place it in your environment (Kaggle, local machine, etc.).
-        Update the dataset path in the notebook: dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'
+   - Download Caltech-256 and place it in your environment (Kaggle, local machine, etc.).
+   - Update the dataset path in the notebook: dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'
 
 ### 4. Run the Notebook
    - Open lost-found-ai-blockchain.ipynb
