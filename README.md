@@ -10,11 +10,13 @@ This repository contains the complete implementation of the **AI-based image cla
 ## Features
 
 The notebook demonstrates:
-- Data preprocessing and augmentation
-- Custom dataset handling
-- Training deep learning models (ResNet50, VGG16, MobileNetV3) with PyTorch
-- Evaluation with metrics, confusion matrix, ROC curves, and robustness testing on noisy images
-- 5-fold cross-validation for model selection
+- Custom filtering of Caltech-256 to 10 highly relevant lost-and-found item categories  
+- Strong data augmentation and ablation study (with vs without augmentation)  
+- Training & evaluation of ResNet50, VGG16, and MobileNetV3  
+- 5-fold stratified cross-validation  
+- Comprehensive metrics: accuracy, precision, recall, F1-score, macro-AUC, per-class analysis  
+- High-resolution plots (300 DPI): learning curves, ROC curves, confusion matrices, per-class metrics  
+- Robustness testing against Gaussian blur (real-world scenario)
 
 **Dataset link:**  
 [Caltech-256 Dataset](https://www.kaggle.com/datasets/jessicali9530/caltech256)
@@ -29,8 +31,10 @@ The notebook demonstrates:
         pip install -r requirements.txt
 
 ### 3. Prepare Dataset
-   - Download Caltech-256 and place it in your environment (Kaggle, local machine, etc.).
-   - Update the dataset path in the notebook: dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'
+   - Download Caltech-256 and place it in your environment.
+   - Update the dataset path in the notebook.
+     - For Kaggle: dataset_folder = '/kaggle/input/caltech256/256_ObjectCategories'
+     - For local/Colab: adjust accordingly
 
 ### 4. Run the Notebook
    - Open lost-found-ai-blockchain.ipynb
