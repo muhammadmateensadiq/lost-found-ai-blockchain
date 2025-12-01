@@ -22,8 +22,7 @@ The notebook demonstrates:
 ## Installation
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/muhammadmateensadiq/lost-found-ai-blockchain.git
+```bash git clone https://github.com/muhammadmateensadiq/lost-found-ai-blockchain.git ```
 cd lost-found-ai-blockchain
 
 2. Install Dependencies
